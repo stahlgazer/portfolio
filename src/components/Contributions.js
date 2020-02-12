@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@material-ui/core";
 import GitHubCalendar from "react-github-calendar";
 
 export default function Contributions() {

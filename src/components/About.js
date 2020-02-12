@@ -1,10 +1,11 @@
 import React from "react";
-import { Button } from "@material-ui/core";
+import logo from "../images/logo.png";
 
 export default function About() {
     return (
-      <div>
-        <h2>projects</h2>
-      </div>
+      <section id="About">
+        <h2>About</h2>
+        <img src={logo} alt="my logo" className="logo" />
+      </section>
     );
   }

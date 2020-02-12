@@ -1,9 +1,8 @@
 import React from "react";
-import { Button } from "@material-ui/core";
 
 export default function Skills() {
   return (
-    <div>
+    <div id="Skills">
       <h2>skills</h2>
     </div>
   );

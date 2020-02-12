@@ -1,12 +1,13 @@
 import React from "react";
 import { Button } from "@material-ui/core";
+import logo from "../images/logo.png";
 
 export default function Navigation() {
   return (
     <div className="navlinks-container">
-      <img src="logo.png" alt="my logo" />
+      {/* <img src={logo} alt="my logo" className="logo" /> */}
       <div className="navlinks">
-        <Button href="#About" color="secondary" variant="contained">
+        <Button href="#" color="secondary" variant="contained">
           About
         </Button>
       </div>
