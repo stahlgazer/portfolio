@@ -4,6 +4,7 @@ import { Button } from "@material-ui/core";
 export default function Navigation() {
   return (
     <div className="navlinks-container">
+      <img src="logo.png" alt="my logo" />
       <div className="navlinks">
         <Button href="#About" color="secondary" variant="contained">
           About

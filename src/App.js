@@ -1,15 +1,21 @@
 import React from "react";
 import "./App.css";
-import GitHubCalendar from "react-github-calendar";
-import Navigation from './components/Navigation'
+import Navigation from './components/Navigation';
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contributions from './components/Contributions';
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
-        <Navigation/>
-      <div className="calendar" id="calendar">
-        <GitHubCalendar username="stahlgazer" color="hsl(203, 82%, 33%)"/>
-      </div>
+        <Navigation />
+        <About />
+        <Skills />
+        <Projects />
+        <Contributions />
+        <Contact />
     </div>
   );
 }
