@@ -5,9 +5,15 @@ export default function Contact() {
     <div id="Contact">
       <h2>Contact</h2>
       <form>
-        <input 
-        type="text"/>
-
+        <div>
+        <label>Name: </label>
+        <input type="text" />
+        <label>E-mail: </label>
+        <input type="text" />
+        </div>
+        <label>Message: </label>
+        <input type="text" />
+        <button type='submit'>Submit</button>
       </form>
     </div>
   );
