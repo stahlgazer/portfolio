@@ -46,18 +46,15 @@ section div h1 {
   color:white;
 }
 .mydetails a {
-  text-decoration: none;
   color:blue;
   background-color:white;
   margin:0% 2%;
   padding:1% 2%;
-  border:2px solid white;
-  border-radius:5%;
   box-shadow:-2px -2px 5px black;
 }
 .mydetails a:hover {
-  color:blue;
-  border:2px solid blue;
+  color:white;
+  box-shadow:-2px -2px 5px black;
   transition:1s;
 }
 /* Skills */
