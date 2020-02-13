@@ -16,9 +16,9 @@
 .navlinks {
 padding:1% 1%;
 }
-.navlinks, .logo, div, section{
+/* .navlinks, .logo, div, section{
   border:1px solid black;
-}
+} */
 /* About */
 .photo {
   width: 350px;
@@ -37,4 +37,11 @@ form {
   flex-direction:column;
   width:35%;
   margin:0 auto;
+}
+form button {
+  width:25%;
+  margin:2% auto;
+}
+form input {
+  margin:2%;
 }

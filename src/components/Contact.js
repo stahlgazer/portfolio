@@ -1,10 +1,9 @@
 import React from "react";
 
 export default function Contact() {
-
-const handleSubmit = e => {
-e.preventDefault()
-}
+  const handleSubmit = e => {
+    e.preventDefault();
+  };
 
   return (
     <div id="Contact">
@@ -12,13 +11,22 @@ e.preventDefault()
       <form>
         <div>
           <label>Name: </label>
-          <input type="name" required />
+          <input placeholder="Your Name" type="name" required />
           <label>E-mail: </label>
-          <input type="email" required />
+          <input placeholder="YourEmail@Email.com" type="email" required />
         </div>
         <label>Message: </label>
-        <input type="text" required />
-        <button type="submit" onSubmit={handleSubmit}>Submit</button>
+        <textarea
+          type="text"
+          placeholder="Type Your Message"
+          name="message"
+          rows="10"
+          cols="30"
+          required
+        ></textarea>
+        <button type="submit" onSubmit={handleSubmit}>
+          Submit
+        </button>
       </form>
     </div>
   );
