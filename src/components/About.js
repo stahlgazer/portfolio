@@ -16,6 +16,7 @@ export default function About() {
           Currently attending and working at Lambda School.
         </p>
         <br />
+
         <Button
           variant="contained"
           color="primary"
@@ -23,7 +24,7 @@ export default function About() {
           href="https://www.linkedin.com/in/gavin-stahl-0842b6184/"
           target="_blank"
         >
-          Linked-In
+          <i class="fab fa-linkedin"></i>Linked-In
         </Button>
         <Button
           variant="contained"
@@ -31,7 +32,7 @@ export default function About() {
           rel="external noopener noreferrer"
           href="https://github.com/stahlgazer"
           target="_blank"
-        >
+        ><i class="fab fa-github"></i>
           Github
         </Button>
         <Button
@@ -40,7 +41,7 @@ export default function About() {
           rel="external noopener noreferrer"
           href="https://twitter.com/stahlgazer"
           target="_blank"
-        >
+        ><i class="fab fa-twitter"></i>
           Twitter
         </Button>
       </div>

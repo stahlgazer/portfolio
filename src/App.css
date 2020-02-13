@@ -1,9 +1,15 @@
-/* App */
+/* Test borders for structure */
+/* .navlinks, p, a, .logo, div, section{
+  border:1px solid black;
+} */
+
+/* Entire App */
 .App {
   text-align: center;
   padding-top:6%;
 }
-/* Navigation */
+
+/* Navigation Section */
 .navlinks-container{
   display:flex;
   justify-content:center;
@@ -19,16 +25,12 @@ padding:1% 1%;
 section div h1 {
   font-size: 2rem;
 }
-/* Test borders for structure */
-/* .navlinks, p, a, .logo, div, section{
-  border:1px solid black;
-} */
 
-/* About */
+/* About Section */
 .photo {
   max-width: 50%;
   border-radius:50%;
-  box-shadow:-5px -5px 15px black;
+  box-shadow:-3px -3px 10px black;
 }
 #About {
   background-color:lightslategray;
@@ -57,11 +59,15 @@ section div h1 {
   box-shadow:-2px -2px 5px black;
   transition:1s;
 }
-/* Skills */
+.mydetails .fab {
+  margin-right:2px;
+}
 
-/* Projects */
+/* Skills Section */
 
-/* Contact */
+/* Projects Section*/
+
+/* Contact Section */
 form {
   display:flex;
   flex-direction:column;
@@ -76,7 +82,7 @@ form input {
   margin:2%;
 }
 
-/* Footer */
+/* Footer Section */
 .footer {
   background-color:lightslategray;
   padding:0.1%;
