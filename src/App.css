@@ -27,7 +27,7 @@ section div h1 {
 .photo {
   max-width: 50%;
   border-radius:50%;
-  box-shadow:-5px -5px 15px black;
+  box-shadow:-5px -5px 10px black;
 }
 #About {
   background-color:lightslategray;
@@ -36,7 +36,8 @@ section div h1 {
   justify-content:center;
   width:50%;
   margin:0 auto;
-  box-shadow:-5px -5px 10px gray;
+  /* box-shadow:-5px -5px 10px gray; */
+  border-radius:10px;
 }
 .mydetails {
   width:50%;
