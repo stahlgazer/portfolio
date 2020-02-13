@@ -20,8 +20,7 @@ section div h1 {
   font-size: 2rem;
 }
 /* Test borders for structure */
-
-/* .navlinks, .logo, div, section{
+/* .navlinks, p, a, .logo, div, section{
   border:1px solid black;
 } */
 
@@ -29,7 +28,7 @@ section div h1 {
 .photo {
   max-width: 50%;
   border-radius:50%;
-  box-shadow:-5px -5px 10px black;
+  box-shadow:-5px -5px 15px black;
 }
 #About {
   background-color:lightslategray;
@@ -38,12 +37,28 @@ section div h1 {
   justify-content:center;
   width:50%;
   margin:0 auto;
-  /* box-shadow:-5px -5px 10px gray; */
+  box-shadow:-5px -5px 15px black;
   border-radius:10px;
 }
 .mydetails {
-  width:50%;
+  width:100%;
   padding:5%;
+  color:white;
+}
+.mydetails a {
+  text-decoration: none;
+  color:blue;
+  background-color:white;
+  margin:0% 2%;
+  padding:1% 2%;
+  border:2px solid white;
+  border-radius:5%;
+  box-shadow:-2px -2px 5px black;
+}
+.mydetails a:hover {
+  color:blue;
+  border:2px solid blue;
+  transition:1s;
 }
 /* Skills */
 
