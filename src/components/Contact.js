@@ -9,12 +9,17 @@ export default function Contact() {
   return (
     <div id="Contact">
       <h2>Contact</h2>
-      <form>
+      <form action="https://formspree.io/xpzdbvwl" method="POST">
         <div>
           <label>Name: </label>
           <input placeholder="Your Name" type="name" required />
           <label>E-mail: </label>
-          <input placeholder="YourEmail@Email.com" type="email" required />
+          <input
+            placeholder="YourEmail@Email.com"
+            type="email"
+            name="_replyto"
+            required
+          />
         </div>
         <label>Message: </label>
         <textarea
@@ -29,11 +34,11 @@ export default function Contact() {
           <Button
             color="primary"
             variant="contained"
-            href="mailto:stahlgavin@gmail.com"
             type="submit"
+            value="Send"
             onSubmit={handleSubmit}
           >
-            Submit
+            Send
           </Button>
         </div>
       </form>
