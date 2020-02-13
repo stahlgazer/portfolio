@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <div id="Contact">
-      <h2>Contact</h2>
+      <h2>Contact by E-mail</h2>
       <form action="https://formspree.io/xpzdbvwl" method="POST">
         <div>
           <label>Name: </label>

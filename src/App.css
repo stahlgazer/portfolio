@@ -20,9 +20,11 @@ section div h1 {
   font-size: 2rem;
 }
 /* Test borders for structure */
+
 /* .navlinks, .logo, div, section{
   border:1px solid black;
 } */
+
 /* About */
 .photo {
   max-width: 50%;
@@ -44,6 +46,7 @@ section div h1 {
   padding:5%;
 }
 /* Skills */
+
 /* Projects */
 
 /* Contact */
@@ -59,4 +62,10 @@ form {
 }
 form input {
   margin:2%;
+}
+
+/* Footer */
+.footer {
+  background-color:lightslategray;
+  padding:0.1%;
 }
