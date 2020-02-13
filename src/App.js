@@ -4,7 +4,6 @@ import Navigation from './components/Navigation';
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contributions from './components/Contributions';
 import Contact from "./components/Contact";
 
 function App() {
