@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@material-ui/core";
 
 export default function Contact() {
   const handleSubmit = e => {
@@ -24,9 +25,17 @@ export default function Contact() {
           cols="30"
           required
         ></textarea>
-        <button type="submit" onSubmit={handleSubmit}>
-          Submit
-        </button>
+        <div className="contact-submit">
+          <Button
+            color="primary"
+            variant="contained"
+            href="mailto:stahlgavin@gmail.com"
+            type="submit"
+            onSubmit={handleSubmit}
+          >
+            Submit
+          </Button>
+        </div>
       </form>
     </div>
   );

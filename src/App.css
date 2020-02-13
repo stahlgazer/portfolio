@@ -16,9 +16,9 @@
 .navlinks {
 padding:1% 1%;
 }
-/* .navlinks, .logo, div, section{
+.navlinks, .logo, div, section{
   border:1px solid black;
-} */
+}
 /* About */
 .photo {
   width: 350px;
@@ -38,7 +38,7 @@ form {
   width:35%;
   margin:0 auto;
 }
-form button {
+.contact-submit {
   width:25%;
   margin:2% auto;
 }
