@@ -7,7 +7,6 @@
 padding:10% 0%;
 margin:0 auto;
 width:80%;
-border:1px solid black;
 }
 
 .navlinks-container{
@@ -22,14 +21,19 @@ border:1px solid black;
 
 .navlinks {
 padding:1% 1%;
-border:1px solid black;
 }
 
 .logo {
   width: 200px;
+}
+
+.navlinks, .logo, div, section{
   border:1px solid black;
 }
 
-div, section{
-  border:1px solid black;
+form {
+  display:flex;
+  flex-direction:column;
+  width:35%;
+  margin:0 auto;
 }

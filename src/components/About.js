@@ -5,6 +5,7 @@ export default function About() {
     return (
       <section id="About">
         <h2>About</h2>
+        <img src="" alt="personal"/>
         <img src={logo} alt="my logo" className="logo" />
       </section>
     );
