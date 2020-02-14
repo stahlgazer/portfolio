@@ -9,10 +9,11 @@
   padding-top:6%;
 }
 section {
-  margin-top:10%;
+  margin-top:5%;
 }
+/* NAV FIX */
 .nav-fix{
-  margin-top:10%;
+  margin-top:0%;
   padding:5%;
 }
 /* Navigation Section */
@@ -76,8 +77,29 @@ section div h1 {
   justify-content: center;
 }
 #Skills .fab {
-  font-size:5rem;
+  font-size:8rem;
 }
+.icondiv {
+  margin:5%;
+}
+.fa-html5{
+  color:orangered;
+}
+.fa-css3-alt{
+  color:rgb(84, 106, 231);
+}
+.fa-js-square{
+  color:yellow;
+}
+.fa-react{
+  color:lightskyblue;
+}
+.fa-sass{
+  color:rgb(219, 108, 195);;
+}
+.fa-python{color:rgb(82, 172, 79);}
+.fa-node-js{color:rgb(13, 173, 13);}
+.fa-bootstrap{color:rgb(110, 8, 110);}
 
 /* Projects Section*/
 
