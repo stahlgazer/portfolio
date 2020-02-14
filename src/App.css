@@ -6,21 +6,21 @@
 /* Entire App */
 .App {
   text-align: center;
-  padding-top:6%;
+  padding-top: 6%;
 }
 section {
-  margin-top:5%;
+  margin-top: 5%;
 }
 /* NAV FIX */
-.nav-fix{
-  margin-top:0%;
-  padding:5%;
+.nav-fix {
+  margin-top: 0%;
+  padding: 5%;
 }
 /* Navigation Section */
-.navlinks-container{
-  z-index:1;
-  display:flex;
-  justify-content:center;
+.navlinks-container {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
   background: -webkit-linear-gradient(rgb(17, 7, 68), rgb(167, 194, 240));
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
@@ -28,7 +28,7 @@ section {
   width: 100%; /* Full width */
 }
 .navlinks {
-padding:.75% 1%;
+  padding: 0.75% 1%;
 }
 
 /* About Section */
@@ -37,96 +37,114 @@ section div h1 {
 }
 .photo {
   max-width: 50%;
-  border-radius:50%;
-  box-shadow:-3px -3px 10px black;
+  border-radius: 50%;
+  box-shadow: -3px -3px 10px black;
 }
 #About {
-  background: -webkit-linear-gradient(rgb(17, 7, 68), rgb(56, 88, 143), rgb(255, 255, 255));
-  padding:2%;
-  display:flex;
-  justify-content:center;
-  width:60%;
-  margin:5% auto;
-  box-shadow:-5px -5px 15px black;
-  border-radius:10px;
+  background: -webkit-linear-gradient(
+    rgb(17, 7, 68),
+    rgb(56, 88, 143),
+    rgb(255, 255, 255)
+  );
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 3% auto;
+  box-shadow: -5px -5px 15px black;
+  border-radius: 10px;
 }
 .mydetails {
-  width:100%;
-  padding:5%;
-  color:white;
+  width: 100%;
+  padding: 5%;
+  color: white;
 }
 .mydetails a {
-  color:blue;
-  background-color:white;
-  margin:0% 2%;
-  padding:1% 2%;
-  box-shadow:-2px -2px 5px black;
+  color: blue;
+  background-color: white;
+  margin: 0% 2%;
+  padding: 1% 2%;
+  box-shadow: -2px -2px 5px black;
 }
 .mydetails a:hover {
-  color:white;
-  box-shadow:-2px -2px 5px black;
-  transition:1s;
+  color: white;
+  box-shadow: -2px -2px 5px black;
+  transition: 1s;
 }
 .mydetails .fab {
-  margin-right:2px;
+  margin-right: 2px;
 }
 
 /* Skills Section */
-.icons-container{
-  display:flex;
+.icons-container {
+  display: flex;
   justify-content: center;
 }
 #Skills .fab {
-  font-size:8rem;
+  font-size: 8rem;
 }
 #Skills h2 {
-  padding:0%;
-    font-size: 3rem;
-    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(78, 60, 184), rgb(27, 28, 31));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  padding: 0%;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255),
+    rgb(78, 60, 184),
+    rgb(27, 28, 31)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .icondiv {
-  margin:2.5% 5%;
-  width:100%;
+  margin: 2.5% 5%;
+  width: 100%;
 }
 .icondiv p {
   color: rgb(30, 0, 138);
-  font-family:Verdana;
-  font-style:italic;
-  box-shadow:5px 5px 5px rgb(188, 178, 240);
-  border-radius:5px;
+  font-family: Verdana;
+  font-style: italic;
+  box-shadow: 5px 5px 5px rgb(188, 178, 240);
+  border-radius: 5px;
 }
 .icondiv:hover {
   transform: rotate(360deg);
-  transition:  transform .5s;
+  transition: transform 0.5s;
 }
-.fa-html5{
-  color:orangered;
+.fa-html5 {
+  color: orangered;
 }
-.fa-css3-alt{
-  color:rgb(84, 106, 231);
+.fa-css3-alt {
+  color: rgb(84, 106, 231);
 }
-.fa-js-square{
-  color:yellow;
+.fa-js-square {
+  color: yellow;
 }
-.fa-react{
-  color:lightskyblue;
+.fa-react {
+  color: lightskyblue;
 }
-.fa-sass{
-  color:rgb(219, 108, 195);;
+.fa-sass {
+  color: rgb(219, 108, 195);
 }
-.fa-python{color:rgb(82, 172, 79);}
-.fa-node-js{color:rgb(13, 173, 13);}
-.fa-bootstrap{color:rgb(110, 8, 110);}
+.fa-python {
+  color: rgb(82, 172, 79);
+}
+.fa-node-js {
+  color: rgb(13, 173, 13);
+}
+.fa-bootstrap {
+  color: rgb(110, 8, 110);
+}
 
 /* Projects Section*/
-section .nav-fix h2{
-  color:red;
-  padding:0%;
+section .nav-fix h2 {
+  color: red;
+  padding: 0%;
   font-size: 3rem;
-  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(78, 60, 184), rgb(27, 28, 31));
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255),
+    rgb(78, 60, 184),
+    rgb(27, 28, 31)
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -134,36 +152,63 @@ section .nav-fix h2{
 
 /* Contact Section */
 #Contact .nav-fix h2 {
-  padding:0%;
-  margin:0%;
+  padding: 0%;
+  margin: 0%;
 }
 
 form {
-  color:white;
-  display:flex;
-  flex-direction:column;
-  max-width:500px;
-  margin:0 auto;
-  background: -webkit-linear-gradient(rgb(17, 7, 68), rgb(56, 88, 143), rgb(167, 194, 240));
-  padding:2%;
-  border-radius:20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(
+    rgb(17, 7, 68),
+    rgb(56, 88, 143),
+    rgb(167, 194, 240)
+  );
+  padding: 2%;
+  border-radius: 20px;
 }
 .contact-submit {
-  width:25%;
-  margin:2% auto;
+  width: 25%;
+  margin: 2% auto;
 }
 form input {
-  margin:3% 0%;
-  width:100%;
+  margin: 3% 0%;
+  width: 100%;
 }
-form textarea{
-  width:100%;
-  margin:5% auto;
+form textarea {
+  width: 100%;
+  margin: 5% auto;
 }
 
 /* Footer Section */
 .footer {
-  color:white;
-  background: -webkit-linear-gradient( rgb(167, 194, 240), rgb(17, 7, 68));
-  padding:0.1%;
+  color: white;
+  background: -webkit-linear-gradient(rgb(167, 194, 240), rgb(17, 7, 68));
+  padding: 0.1%;
+}
+
+/* Scroll Animations */
+#reveal1 {
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+     -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+#reveal1.visible {
+  opacity: 1;
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
 }

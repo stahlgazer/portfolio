@@ -7,7 +7,7 @@ export default function About() {
     <section id="About">
       <img src={photo} alt="me" className="photo" />
       <div className="mydetails" style={{ width: "50%" }}>
-      <h1>Gavin Stahl</h1>
+        <h1>Gavin Stahl</h1>
         <h2>Full Stack Web Developer</h2>
         <p>Redondo Beach, CA</p>
         <p>StahlGavin@gmail.com</p>
@@ -16,7 +16,6 @@ export default function About() {
           Currently attending and working at Lambda School.
         </p>
         <br />
-
         <Button
           variant="contained"
           color="primary"
