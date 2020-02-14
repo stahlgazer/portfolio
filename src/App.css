@@ -1,12 +1,13 @@
 /* Test borders for structure */
-.navlinks, p, a, .logo, div, section{
+/* .navlinks, p, a, .logo, div, section{
   border:1px dotted black;
-}
+} */
 
 /* Entire App */
 .App {
   text-align: center;
   padding-top: 6%;
+  overflow-x: hidden
 }
 section {
   margin-top: 5%;
