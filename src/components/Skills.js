@@ -31,7 +31,7 @@ export default function Skills() {
         </div>
       </div>
       <div
-        data-aos="fade-down-left"
+        data-aos="fade-up-left"
         data-aos-delay="300"
         data-aos-duration="1000"
         className="icons-container"
