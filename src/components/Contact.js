@@ -15,7 +15,7 @@ export default function Contact() {
         action="https://formspree.io/xpzdbvwl"
         method="POST"
         data-aos="flip-right"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-delay="300"
         data-aos-mirror='true'
       >
