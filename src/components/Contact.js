@@ -15,6 +15,8 @@ export default function Contact() {
         <div>
           <label>Name: </label>
           <input placeholder="Your Name" type="name" required />
+        </div>
+        <div>
           <label>E-mail: </label>
           <input
             placeholder="YourEmail@Email.com"
@@ -29,12 +31,13 @@ export default function Contact() {
           placeholder="Type Your Message"
           name="message"
           rows="10"
-          cols="30"
+          cols="10"
           required
+          style={{ resize: "none" }}
         ></textarea>
         <div className="contact-submit">
           <Button
-            color="primary"
+            color="secondary"
             variant="contained"
             type="submit"
             value="Send"

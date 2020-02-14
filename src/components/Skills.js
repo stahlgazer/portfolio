@@ -35,7 +35,7 @@ export default function Skills() {
         </div>
         <div className="icondiv">
           <i class="fab fa-bootstrap"></i>
-          <p>Bootstrap/Reactstrap</p>
+          <p>Reactstrap</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-node-js"></i>
