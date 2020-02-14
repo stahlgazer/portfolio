@@ -11,6 +11,7 @@ export default function Skills() {
         data-aos-duration="1000"
         data-aos-delay="300"
         className="icons-container"
+        data-aos-mirror='true'
       >
         <div className="icondiv">
           <i class="fab fa-html5"></i>
@@ -34,6 +35,7 @@ export default function Skills() {
         data-aos-delay="300"
         data-aos-duration="1000"
         className="icons-container"
+        data-aos-mirror='true'
       >
         <div className="icondiv">
           <i class="fab fa-react"></i>

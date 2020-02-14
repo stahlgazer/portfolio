@@ -11,7 +11,14 @@ export default function Contact() {
       <div className="nav-fix">
         <h2>Contact by E-mail</h2>
       </div>
-      <form action="https://formspree.io/xpzdbvwl" method="POST">
+      <form
+        action="https://formspree.io/xpzdbvwl"
+        method="POST"
+        data-aos="flip-right"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        data-aos-mirror='true'
+      >
         <div>
           <label className="formlabel">Name: </label>
           <input placeholder="Your Name" type="name" required />
