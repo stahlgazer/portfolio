@@ -89,6 +89,7 @@ section div h1 {
     font-size: 3rem;
     background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(78, 60, 184), rgb(27, 28, 31));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .icondiv {
@@ -131,6 +132,7 @@ section .nav-fix h2{
   font-size: 3rem;
   background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(78, 60, 184), rgb(27, 28, 31));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -158,6 +160,5 @@ form textarea{
 .footer {
   color:white;
   background: -webkit-linear-gradient( rgb(167, 194, 240), rgb(17, 7, 68));
-  /* background: -webkit-linear-gradient(rgb(167, 194, 240), rgb(61, 40, 179)); */
   padding:0.1%;
 }
