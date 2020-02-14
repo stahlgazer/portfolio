@@ -2,36 +2,44 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <section id="Skills">
-      <div className="nav-fix">
-        <h2>Skills - Languages - Technologies</h2>
+    <section id="Skills" className="nav-fix">
+      <div>
+        <h2>Skills / Languages</h2>
       </div>
       <div className="icons-container">
         <div className="icondiv">
           <i class="fab fa-html5"></i>
+          <p>Html5</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-css3-alt"></i>
+          <p>CSS3</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-js-square"></i>
+          <p>JavaScript</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-sass"></i>
+          <p>SCSS</p>
         </div>
       </div>
       <div className="icons-container">
         <div className="icondiv">
           <i class="fab fa-react"></i>
+          <p>React.js</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-python"></i>
+          <p>Python</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-bootstrap"></i>
+          <p>Bootstrap/Reactstrap</p>
         </div>
         <div className="icondiv">
           <i class="fab fa-node-js"></i>
+          <p>Node.js</p>
         </div>
       </div>
     </section>

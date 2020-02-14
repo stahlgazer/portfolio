@@ -21,7 +21,7 @@ section {
   z-index:1;
   display:flex;
   justify-content:center;
-  background-color:lightslategray;
+  background: -webkit-linear-gradient(rgb(17, 7, 68), rgb(167, 194, 240));
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -30,18 +30,23 @@ section {
 .navlinks {
 padding:.75% 1%;
 }
+.logo{
+  width:65px;
+  position:fixed;
+  top:0;
+  left:0;
+}
+/* About Section */
 section div h1 {
   font-size: 2rem;
 }
-
-/* About Section */
 .photo {
   max-width: 50%;
   border-radius:50%;
   box-shadow:-3px -3px 10px black;
 }
 #About {
-  background-color:lightslategray;
+  background: -webkit-linear-gradient(rgb(17, 7, 68), rgb(56, 88, 143), rgb(255, 255, 255));
   padding:2%;
   display:flex;
   justify-content:center;
@@ -79,8 +84,20 @@ section div h1 {
 #Skills .fab {
   font-size:8rem;
 }
+#Skills h2 {
+  padding:0%;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(78, 60, 184), rgb(27, 28, 31));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .icondiv {
-  margin:5%;
+  margin:2.5% 5%;
+
+}
+i:hover {
+  transform: rotate(360deg);
+  transition:  transform 1s;
 }
 .fa-html5{
   color:orangered;
@@ -120,6 +137,8 @@ form input {
 
 /* Footer Section */
 .footer {
-  background-color:lightslategray;
+  color:white;
+  background: -webkit-linear-gradient( rgb(167, 194, 240), rgb(17, 7, 68));
+  /* background: -webkit-linear-gradient(rgb(167, 194, 240), rgb(61, 40, 179)); */
   padding:0.1%;
 }
