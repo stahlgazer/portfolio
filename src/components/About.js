@@ -3,8 +3,9 @@ import photo from "../images/gavin.jpg";
 import { Button } from "@material-ui/core";
 
 export default function About() {
+  
   return (
-    <section id="About">
+    <section data-aos="fade-down-right" data-aos-duration="3000" id="About" >
       <img src={photo} alt="me" className="photo" />
       <div className="mydetails" style={{ width: "50%" }}>
         <h1>Gavin Stahl</h1>

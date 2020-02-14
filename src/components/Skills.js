@@ -6,7 +6,12 @@ export default function Skills() {
       <div>
         <h2>Skills / Languages</h2>
       </div>
-      <div className="icons-container">
+      <div
+        data-aos="fade-down-right"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        className="icons-container"
+      >
         <div className="icondiv">
           <i class="fab fa-html5"></i>
           <p>Html5</p>
@@ -24,7 +29,12 @@ export default function Skills() {
           <p>SCSS</p>
         </div>
       </div>
-      <div className="icons-container">
+      <div
+        data-aos="fade-down-left"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        className="icons-container"
+      >
         <div className="icondiv">
           <i class="fab fa-react"></i>
           <p>React.js</p>
