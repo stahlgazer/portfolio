@@ -13,11 +13,11 @@ export default function Contact() {
       </div>
       <form action="https://formspree.io/xpzdbvwl" method="POST">
         <div>
-          <label>Name: </label>
+          <label className="formlabel">Name: </label>
           <input placeholder="Your Name" type="name" required />
         </div>
         <div>
-          <label>E-mail: </label>
+          <label className="formlabel">E-mail: </label>
           <input
             placeholder="YourEmail@Email.com"
             type="email"
@@ -25,7 +25,7 @@ export default function Contact() {
             required
           />
         </div>
-        <label>Message: </label>
+        <label className="formlabel">Message: </label>
         <textarea
           type="text"
           placeholder="Type Your Message"

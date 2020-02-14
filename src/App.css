@@ -97,14 +97,15 @@ section div h1 {
   width:100%;
 }
 .icondiv p {
-  color: rgb(0, 0, 0);
-  font-family:Helvetica;
+  color: rgb(30, 0, 138);
+  font-family:Verdana;
+  font-style:italic;
   box-shadow:5px 5px 5px rgb(188, 178, 240);
   border-radius:5px;
 }
-i:hover {
+.icondiv:hover {
   transform: rotate(360deg);
-  transition:  transform 1s;
+  transition:  transform .5s;
 }
 .fa-html5{
   color:orangered;
@@ -137,23 +138,32 @@ section .nav-fix h2{
 }
 
 /* Contact Section */
+#Contact .nav-fix h2 {
+  padding:0%;
+  margin:0%;
+}
+
 form {
+  color:white;
   display:flex;
   flex-direction:column;
   max-width:500px;
   margin:0 auto;
+  background: -webkit-linear-gradient(rgb(17, 7, 68), rgb(56, 88, 143), rgb(167, 194, 240));
+  padding:2%;
+  border-radius:20px;
 }
 .contact-submit {
   width:25%;
   margin:2% auto;
 }
 form input {
-  margin:5% 0%;
+  margin:3% 0%;
   width:100%;
 }
 form textarea{
   width:100%;
-  margin:05% auto;
+  margin:5% auto;
 }
 
 /* Footer Section */
