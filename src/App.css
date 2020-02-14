@@ -30,12 +30,7 @@ section {
 .navlinks {
 padding:.75% 1%;
 }
-.logo{
-  width:65px;
-  position:fixed;
-  top:0;
-  left:0;
-}
+
 /* About Section */
 section div h1 {
   font-size: 2rem;

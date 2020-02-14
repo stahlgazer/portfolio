@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@material-ui/core";
-// import logo from "../images/logo.png";
+// import logo from "../images/newlogo.png";
 
 export default function Navigation() {
   return (
