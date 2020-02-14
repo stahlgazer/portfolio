@@ -7,8 +7,10 @@ export default function Contact() {
   };
 
   return (
-    <div id="Contact">
-      <h2>Contact by E-mail</h2>
+    <section id="Contact">
+      <div className="nav-fix">
+        <h2>Contact by E-mail</h2>
+      </div>
       <form action="https://formspree.io/xpzdbvwl" method="POST">
         <div>
           <label>Name: </label>
@@ -42,6 +44,6 @@ export default function Contact() {
           </Button>
         </div>
       </form>
-    </div>
+    </section>
   );
 }
