@@ -147,10 +147,9 @@ section div h1 {
 
 /* Projects Section*/
 section .nav-fix h2 {
-  color: red;
   margin: 0%;
   padding: 0%;
-
+  margin-bottom:-100px;
   font-size: 3rem;
   background: -webkit-linear-gradient(
     rgb(255, 255, 255),
@@ -161,6 +160,18 @@ section .nav-fix h2 {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.single-project h2 {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255),
+    rgb(78, 60, 184),
+    rgb(27, 28, 31)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .projects-container {
   display: flex;
   width: 50%;
