@@ -1,5 +1,8 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import tipsease from '../images/tipsease.PNG';
+import todo from '../images/todoapp2.PNG';
+
 
 export default function Projects() {
   return (
@@ -9,12 +12,12 @@ export default function Projects() {
       </div>
       <div className="projects-container">
         <div className="single-project">
-          <h2>Project Title1</h2>
-          <img src="../images/tipsease.PNG" alt="project1" />
+          <h2>Tipsease</h2>
+          <img src={tipsease} alt="project1" />
         </div>
         <div className="single-project">
-          <h2>Project Title2</h2>
-          <img src="../images/todoapp2.PNG" alt="project2" />
+          <h2>To Do List</h2>
+          <img src={todo} alt="project2" />
         </div>
         <div className="single-project">
           <h2>Project Title3</h2>

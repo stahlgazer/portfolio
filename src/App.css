@@ -163,6 +163,10 @@ section .nav-fix h2 {
   margin:0 auto;
   margin-bottom:5%;
 }
+.single-project img {
+  width:300px;
+  height:150px;
+}
 .calendar{
   max-width:50%;
   margin:0 auto;
