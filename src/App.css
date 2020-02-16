@@ -81,7 +81,10 @@ section div h1 {
 .mydetails .fab {
   margin-right: 2px;
 }
-
+.mydetails p .lambda {
+  margin-top: 1%;
+  display: inline-block;
+}
 /* Skills Section */
 .icons-container {
   display: flex;
@@ -145,8 +148,8 @@ section div h1 {
 /* Projects Section*/
 section .nav-fix h2 {
   color: red;
-  margin:0%;
-  padding:0%;
+  margin: 0%;
+  padding: 0%;
 
   font-size: 3rem;
   background: -webkit-linear-gradient(
@@ -158,25 +161,25 @@ section .nav-fix h2 {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.projects-container{
-  display:flex;
-  width:50%;
-  margin:0 auto;
+.projects-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
 }
-.single-project{
-  margin:0 auto;
-  margin-bottom:10%;
-  padding:0%;
+.single-project {
+  margin: 0 auto;
+  margin-bottom: 10%;
+  padding: 0%;
 }
 .single-project img {
-  width:200px;
-  height:150px;
-  max-width:100%;
-  border-radius:15%;
+  width: 200px;
+  height: 150px;
+  max-width: 100%;
+  border-radius: 15%;
 }
-.calendar{
-  max-width:50%;
-  margin:0 auto;
+.calendar {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 /* Contact Section */

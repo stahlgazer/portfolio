@@ -18,7 +18,17 @@ export default function About() {
         <p>StahlGavin@gmail.com</p>
         <p>
           Leveling up my skills in order to be the best developer I can be.
-          Currently attending and working at Lambda School.
+          Currently attending and working at
+          <Button className="lambda"
+            href="https://lambdaschool.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            variant="contained"
+            color="primary"
+            size="small"
+          >
+            Lambda School
+          </Button>
         </p>
         <br />
         <Button
