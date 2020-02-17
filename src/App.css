@@ -1,7 +1,7 @@
 /* Test borders for structure */
-/* .navlinks, p, a, .logo, div, section{
+.navlinks, p, a, .logo, div, section{
   border:1px dotted black;
-} */
+}
 
 /* Entire App */
 .App {
@@ -174,13 +174,14 @@ section .nav-fix h2 {
 
 .projects-container {
   display: flex;
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
 }
 .single-project {
   margin: 0 auto;
   margin-bottom: 10%;
   padding: 0%;
+  width:100%;
 }
 .single-project img {
   width: 200px;
