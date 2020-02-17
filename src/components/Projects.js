@@ -15,14 +15,16 @@ export default function Projects() {
           <a target="blank" href="https://awesome-jackson-f31166.netlify.com/">
             <img src={tipsease} alt="project1" />
           </a>
-          <p>details</p>
+          <h3>Project Details</h3>
+          <p>Role: test</p>
         </div>
         <div className="single-project">
           <h2>To Do List</h2>
           <a target="blank" href="https://react-todo-sigma.now.sh/">
             <img src={todo} alt="project2" />
           </a>
-          <p>details</p>
+          <h3>Project Details</h3>
+          <p>Role: test</p>
         </div>
       </div>
       <div className="calendar" id="Contributions">
