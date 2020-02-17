@@ -13,7 +13,7 @@ export default function Projects() {
         <div className="single-project">
           <h2>Tipsease</h2>
           <a target="blank" href="https://awesome-jackson-f31166.netlify.com/">
-            <img src={tipsease} alt="project1" />{" "}
+            <img src={tipsease} alt="project1" />
           </a>
           <p>details</p>
         </div>
