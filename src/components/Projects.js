@@ -1,8 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import tipsease from '../images/tipsease.PNG';
-import todo from '../images/todoapp2.PNG';
-
+import tipsease from "../images/tipsease.PNG";
+import todo from "../images/todoapp2.PNG";
 
 export default function Projects() {
   return (
@@ -13,11 +12,14 @@ export default function Projects() {
       <div className="projects-container">
         <div className="single-project">
           <h2>Tipsease</h2>
-          <img src={tipsease} alt="project1" />
+          <a target="blank" href="https://awesome-jackson-f31166.netlify.com/">
+            <img src={tipsease} alt="project1" />{" "}
+          </a>
         </div>
         <div className="single-project">
           <h2>To Do List</h2>
-          <img src={todo} alt="project2" />
+          <a target="blank" href='https://react-todo-sigma.now.sh/'>
+          <img src={todo} alt="project2" /></a>
         </div>
       </div>
       <div className="calendar" id="Contributions">
