@@ -81,10 +81,10 @@ section div h1 {
 .mydetails .fab {
   margin-right: 2px;
 }
-.mydetails p .lambda {
-  margin-top: 1%;
-  display: inline-block;
+.mydetails p {
+  font-size:18px;
 }
+
 /* Skills Section */
 .icons-container {
   display: flex;

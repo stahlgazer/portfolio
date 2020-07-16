@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       data-aos="fade-down-right"
-      data-aos-duration="3000"
+      data-aos-duration="2500"
       data-aos-mirror="true"
       id="About"
     >
@@ -16,20 +16,6 @@ export default function About() {
         <h2>Full Stack Web Developer</h2>
         <p>Redondo Beach, CA</p>
         <p>StahlGavin@gmail.com</p>
-        <p>
-          Leveling up my skills in order to be the best developer I can be.
-          Currently attending and working at
-          <Button className="lambda"
-            href="https://lambdaschool.com"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="contained"
-            color="primary"
-            size="small"
-          >
-            Lambda School
-          </Button>
-        </p>
         <br />
         <Button
           variant="contained"
@@ -61,6 +47,24 @@ export default function About() {
           <i class="fab fa-twitter"></i>
           Twitter
         </Button>
+        <p>
+          Leveling up my skills in order to be the best developer I can be.
+          Currently attending and working at
+          <p>
+            <a
+              href="https://lambdaschool.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              style={{
+                textDecoration: "none",
+                backgroundColor: "inherit",
+                color: "white",
+              }}
+            >
+              Lambda School
+            </a>
+          </p>
+        </p>
       </div>
     </section>
   );
