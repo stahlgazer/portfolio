@@ -2,8 +2,19 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import tipsease from "../images/tipsease.PNG";
 import todo from "../images/todoapp2.PNG";
+import ReactTooltip from 'react-tooltip'
 
 export default function Projects() {
+  const exampleTheme = {
+    background: "transparent",
+    text: "#000",
+    grade4: "hsl(338, 78%, 30%)",
+    grade3: "hsl(338, 78%, 44%)",
+    grade2: "hsl(338, 78%, 58%)",
+    grade1: "hsl(338, 78%, 72%)",
+    grade0: "#eee",
+  };
+
   return (
     <section id="Projects">
       <div className="nav-fix">
@@ -28,7 +39,9 @@ export default function Projects() {
         </div>
       </div>
       <div className="calendar" id="Contributions">
-        <GitHubCalendar username="stahlgazer" color="hsl(203, 82%, 33%)" />
+        <GitHubCalendar username="stahlgazer" theme={exampleTheme}>
+          <ReactTooltip delayShow={50} html />
+        </GitHubCalendar>
       </div>
     </section>
   );

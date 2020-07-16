@@ -3381,10 +3381,10 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
-date-fns@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.9.0.tgz#d0b175a5c37ed5f17b97e2272bbc1fa5aec677d2"
-  integrity sha512-khbFLu/MlzLjEzy9Gh8oY1hNt/Dvxw3J6Rbc28cVoYWQaC1S3YI4xwkF9ZWcjDLscbZlY9hISMr66RFzZagLsA==
+date-fns@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.14.0.tgz#359a87a265bb34ef2e38f93ecf63ac453f9bc7ba"
+  integrity sha512-1zD+68jhFgDIM0rF05rcwYO8cExdNqxjq4xP1QKM60Q45mnO6zaMWB4tOzrIr4M4GSLntsKeE4c9Bdl2jhL/yw==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
@@ -8472,12 +8472,12 @@ react-error-overlay@^6.0.5:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.5.tgz#55d59c2a3810e8b41922e0b4e5f85dcf239bd533"
   integrity sha512-+DMR2k5c6BqMDSMF8hLH0vYKtKTeikiFW+fj0LClN+XZg4N9b8QUAdHC62CGWNLTi/gnuuemNcNcTFrCvK1f+A==
 
-react-github-calendar@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/react-github-calendar/-/react-github-calendar-1.0.4.tgz#fd2dccdf2766a6b8ae7fae631ce72d93ada656ee"
-  integrity sha512-zhlQNvIyRIHcXcL0viib1WKgrq9anKZzvtu5c2b9xQRbiDMwIcdOoV7mvHByeFwCRAcz0TQVHDe6fT8q8ncFFg==
+react-github-calendar@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-github-calendar/-/react-github-calendar-2.0.1.tgz#34ad3e3fef3d30e721b199923829e8db26b0b8f4"
+  integrity sha512-65LzFz3RqBvVwfaJaiZK9B3EhCqtVfRmwtqMtFXc0GluLArEgP9V6LAputbTAtlojrsNdLjYdaUDp096r8DL/A==
   dependencies:
-    date-fns "^2.9.0"
+    date-fns "^2.14.0"
     tinycolor2 "^1.4.0"
 
 react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
@@ -8544,6 +8544,14 @@ react-scripts@3.3.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-tooltip@^4.2.7:
+  version "4.2.7"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.2.7.tgz#245b26aa23bc8ca877f9086ad169207d77281894"
+  integrity sha512-z5T3gNplT76rkT7ZImfx/uXfBtS+x7+WK2H8MVZ5skSwETDDx0hs0+P0jwL5gYDaBvsZ7LYiCBzAOd3tN85CMA==
+  dependencies:
+    prop-types "^15.7.2"
+    uuid "^7.0.3"
 
 react-transition-group@^4.3.0:
   version "4.3.0"
@@ -10188,6 +10196,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
