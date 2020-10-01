@@ -43,22 +43,7 @@ export default function About() {
           <i class="fab fa-twitter"></i>
         </a>
         <p>
-          Leveling up my skills in order to be the best developer I can be.
-          Currently attending and working at
-          <p>
-            <a
-              href="https://lambdaschool.com"
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{
-                textDecoration: "none",
-                backgroundColor: "inherit",
-                color: "white",
-              }}
-            >
-              Lambda School
-            </a>
-          </p>
+          React.js/Node.js Developer, Currently leveling up my skills in order to provide unique features, custom designs, and help mine and other's business ideas come to life.
         </p>
       </div>
     </section>
