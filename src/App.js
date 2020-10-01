@@ -4,8 +4,6 @@ import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 
 function App() {
@@ -16,8 +14,6 @@ function App() {
       <Skills />
       <Projects />
       <Resume />
-      {/* <Contact /> */}
-      <Footer />
     </div>
   );
 }

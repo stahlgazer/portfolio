@@ -22,8 +22,8 @@ export default function Navigation() {
         </Button>
       </div>
       <div className="navlinks">
-        <Button href="#Contact" color="secondary" variant="contained">
-          Contact
+        <Button href="#Resume" color="secondary" variant="contained">
+          Resume
         </Button>
       </div>
     </div>
