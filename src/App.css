@@ -72,15 +72,16 @@ section div h1 {
   margin: 0% 2%;
   padding: 1% 2%;
   box-shadow: -2px -2px 5px black;
-}
+  border-radius:5px;
+} 
+
 .mydetails a:hover {
-  color: white;
+  color:white;
+  background:blue;
   box-shadow: -2px -2px 5px black;
   transition: 1s;
 }
-.mydetails .fab {
-  margin-right: 2px;
-}
+
 .mydetails p {
   font-size:18px;
 }

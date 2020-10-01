@@ -1,6 +1,5 @@
 import React from "react";
 import photo from "../images/gavin.jpg";
-import { Button } from "@material-ui/core";
 
 export default function About() {
   return (
@@ -15,19 +14,17 @@ export default function About() {
         <h1>Gavin Stahl</h1>
         <h2>Full Stack Web Developer</h2>
         <p>Redondo Beach, CA</p>
-        <p>StahlGavin@gmail.com</p>
-        <br />
-        <Button
-          variant="contained"
-          color="primary"
-          rel="external noopener noreferrer"
-          href="https://www.linkedin.com/in/gavin-stahl-0842b6184/"
+        <a href="mailto:StahlGavin@gmail.com">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gavin-stahl/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-linkedin"></i>
-          Linked-In
-        </Button>
-        <Button
+        </a>
+        <a
           variant="contained"
           color="primary"
           rel="external noopener noreferrer"
@@ -35,9 +32,8 @@ export default function About() {
           target="_blank"
         >
           <i class="fab fa-github"></i>
-          Github
-        </Button>
-        <Button
+        </a>
+        <a
           variant="contained"
           color="primary"
           rel="external noopener noreferrer"
@@ -45,8 +41,7 @@ export default function About() {
           target="_blank"
         >
           <i class="fab fa-twitter"></i>
-          Twitter
-        </Button>
+        </a>
         <p>
           Leveling up my skills in order to be the best developer I can be.
           Currently attending and working at
