@@ -1,30 +1,29 @@
 import React from "react";
 import { Button } from "@material-ui/core";
-// import logo from "../images/newlogo.png";
+
 
 export default function Navigation() {
   return (
     <div className="navlinks-container">
-      {/* <img src={logo} alt="my logo" className="logo" /> */}
       <div className="navlinks">
-        <Button href="#" color="secondary" variant="contained">
+        <a href="#" >
           About
-        </Button>
+        </a>
       </div>
       <div className="navlinks">
-        <Button href="#Skills" color="secondary" variant="contained">
+        <a href="#Skills" >
           Skills
-        </Button>
+        </a>
       </div>
       <div className="navlinks">
-        <Button href="#Projects" color="secondary" variant="contained">
+        <a href="#Projects" >
           Projects
-        </Button>
+        </a>
       </div>
       <div className="navlinks">
-        <Button href="#Resume" color="secondary" variant="contained">
+        <a href="#Resume" >
           Resume
-        </Button>
+        </a>
       </div>
     </div>
   );
