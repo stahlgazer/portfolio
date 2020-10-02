@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div className="navlinks-container">
       <div className="navlinks">
-        <a href="#" className={active == '1' ? 'active' : ''} onClick={() => setActive('1')}>
+        <a href="#top" className={active === '1' ? 'active' : ''} onClick={() => setActive('1')}>
           About
         </a>
       </div>
