@@ -35,13 +35,13 @@ section {
   width: 100%; /* Full width */
 }
 .navlinks {
-  padding: 0.5% 1%;
+  padding:0.5% 1%;
 }
 .navlinks a {
   color:white;
   font-size: 20px;
   text-decoration:none;
-  padding:20px;
+  padding:30px;
 }
 .active{
   background: -webkit-linear-gradient(

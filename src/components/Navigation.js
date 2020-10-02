@@ -1,28 +1,28 @@
-import React from "react";
-import Link from 'react-router-dom'
+import React, {useState} from "react";
 
 export default function Navigation() {
+  const [active, setActive] = useState('1');
   return (
     <div className="navlinks-container">
       <div className="navlinks">
-        <Link activeStyle to="#">
+        <a href="#" className={active == '1' ? 'active' : ''} onClick={() => setActive('1')}>
           About
-        </Link>
+        </a>
       </div>
       <div className="navlinks">
-        <Link to="#Skills">
+        <a href="#Skills" className={active === '2' ? 'active' : ''} onClick={() => setActive('2')}>
           Skills
-        </Link>
+        </a>
       </div>
       <div className="navlinks">
-        <Link to="#Projects">
+        <a href="#Projects" className={active === '3' ? 'active' : ''} onClick={() => setActive('3')}>
           Projects
-        </Link>
+        </a>
       </div>
       <div className="navlinks">
-        <Link to="#Resume">
+        <a href="#Resume" className={active === '4' ? 'active' : ''} onClick={() => setActive('4')}>
           Resume
-        </Link>
+        </a>
       </div>
     </div>
   );
