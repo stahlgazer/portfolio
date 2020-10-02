@@ -35,7 +35,20 @@ section {
   width: 100%; /* Full width */
 }
 .navlinks {
-  padding: 0.75% 1%;
+  padding: 0.5% 1%;
+}
+.navlinks a {
+  color:white;
+  font-size: 20px;
+  text-decoration:none;
+  padding:20px;
+}
+.navlinks a:hover {
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255),
+    rgb(78, 60, 184),
+    rgb(27, 28, 31)
+  );
 }
 
 /* About Section */
