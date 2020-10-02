@@ -43,6 +43,13 @@ section {
   text-decoration:none;
   padding:20px;
 }
+.active{
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255),
+    rgb(78, 60, 184),
+    rgb(27, 28, 31)
+  );
+}
 .navlinks a:hover {
   background: -webkit-linear-gradient(
     rgb(255, 255, 255),

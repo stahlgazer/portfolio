@@ -1,29 +1,28 @@
 import React from "react";
-import { Button } from "@material-ui/core";
-
+import Link from 'react-router-dom'
 
 export default function Navigation() {
   return (
     <div className="navlinks-container">
       <div className="navlinks">
-        <a href="#" >
+        <Link activeStyle to="#">
           About
-        </a>
+        </Link>
       </div>
       <div className="navlinks">
-        <a href="#Skills" >
+        <Link to="#Skills">
           Skills
-        </a>
+        </Link>
       </div>
       <div className="navlinks">
-        <a href="#Projects" >
+        <Link to="#Projects">
           Projects
-        </a>
+        </Link>
       </div>
       <div className="navlinks">
-        <a href="#Resume" >
+        <Link to="#Resume">
           Resume
-        </a>
+        </Link>
       </div>
     </div>
   );
