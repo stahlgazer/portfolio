@@ -43,7 +43,7 @@ export default function About() {
           <i className="fab fa-twitter"></i>
         </a>
         <p>
-          React.js/Node.js Developer, Currently leveling up my skills in order to provide unique features, custom designs, and help mine and other's business ideas come to life.
+          React.js developer with a passion for the future and bringing new ideas to life. Decided to pursue a career in software development after realizing I was much more interested in technology and design. Feel free to reach out to me for any collaboration/opportunities. Thanks for stopping by!
         </p>
       </div>
     </section>
