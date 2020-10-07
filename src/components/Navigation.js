@@ -9,11 +9,11 @@ export default function Navigation() {
           About
         </a>
       </div>
-      {/* <div className="navlinks">
+      <div className="navlinks">
         <a href="#Skills" className={active === '2' ? 'active' : ''} onClick={() => setActive('2')}>
           Skills
         </a>
-      </div> */}
+      </div>
       <div className="navlinks">
         <a href="#Projects" className={active === '3' ? 'active' : ''} onClick={() => setActive('3')}>
           Projects
