@@ -127,14 +127,14 @@ section div h1 {
   -webkit-text-fill-color: transparent;
 }
 .icondiv {
-  margin: 2.5% 5%;
-  width: 100%;
+  margin: 2%;
+  min-width:10%;
 }
 .icondiv p {
-  color: rgb(30, 0, 138);
+  color: rgb(71, 71, 71);
   font-family: Verdana;
   font-style: italic;
-  box-shadow: 5px 5px 5px rgb(188, 178, 240);
+  box-shadow: 5px 5px 15px rgb(149, 140, 192);
   border-radius: 5px;
 }
 .icondiv:hover {
