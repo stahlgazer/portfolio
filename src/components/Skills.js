@@ -37,6 +37,13 @@ export default function Skills() {
           <i className="fab fa-bootstrap"></i>
           <p>Bootstrap</p>
         </div>
+        <div className="icondiv">
+          <img
+            alt="Git Logo"
+            src="https://img.icons8.com/color/124/000000/git.png"
+          />
+          <p>Git</p>
+        </div>
       </div>
       <div
         data-aos="fade-up-left"
@@ -46,14 +53,20 @@ export default function Skills() {
         data-aos-mirror="true"
       >
         <div className="icondiv">
+          <i className="fab fa-python"></i>
+          <p>Python</p>
+        </div>
+        <div className="icondiv">
           <i className="fab fa-react"></i>
           <p>React.js</p>
         </div>
         <div className="icondiv">
-          <i className="fab fa-python"></i>
-          <p>Python</p>
+          <img
+            alt="Redux Logo"
+            src="https://img.icons8.com/color/124/000000/redux.png"
+          />
+          <p>Redux.js</p>
         </div>
-
         <div className="icondiv">
           <i className="fab fa-node-js"></i>
           <p>Node.js</p>
