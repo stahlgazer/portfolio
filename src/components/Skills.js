@@ -11,7 +11,7 @@ export default function Skills() {
         data-aos-duration="1000"
         data-aos-delay="300"
         className="icons-container"
-        data-aos-mirror='true'
+        data-aos-mirror="true"
       >
         <div className="icondiv">
           <i className="fab fa-html5"></i>
@@ -29,13 +29,21 @@ export default function Skills() {
           <i className="fab fa-sass"></i>
           <p>SCSS</p>
         </div>
+        <div className="icondiv">
+          <i class="fab fa-less"></i>
+          <p>LESS</p>
+        </div>
+        <div className="icondiv">
+          <i className="fab fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </div>
       </div>
       <div
         data-aos="fade-up-left"
         data-aos-delay="300"
         data-aos-duration="1000"
         className="icons-container"
-        data-aos-mirror='true'
+        data-aos-mirror="true"
       >
         <div className="icondiv">
           <i className="fab fa-react"></i>
@@ -45,13 +53,31 @@ export default function Skills() {
           <i className="fab fa-python"></i>
           <p>Python</p>
         </div>
-        <div className="icondiv">
-          <i className="fab fa-bootstrap"></i>
-          <p>Reactstrap</p>
-        </div>
+
         <div className="icondiv">
           <i className="fab fa-node-js"></i>
           <p>Node.js</p>
+        </div>
+        <div className="icondiv">
+          <img
+            alt="GraphQL Logo"
+            src="https://img.icons8.com/color/124/000000/graphql.png"
+          />
+          <p>GraphQL</p>
+        </div>
+        <div className="icondiv">
+          <img
+            alt="Apollo Logo"
+            src="https://img.icons8.com/color/124/000000/apollo.png"
+          />
+          <p>Apollo</p>
+        </div>
+        <div className="icondiv">
+          <img
+            alt="SQL Logo"
+            src="https://img.icons8.com/ultraviolet/124/000000/sql.png"
+          />
+          <p>SQL</p>
         </div>
       </div>
     </section>

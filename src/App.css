@@ -165,6 +165,9 @@ section div h1 {
 .fa-bootstrap {
   color: rgb(110, 8, 110);
 }
+.fa-less {
+  color: rgb(0, 99, 197);
+}
 
 /* Projects Section*/
 section .nav-fix h2 {
