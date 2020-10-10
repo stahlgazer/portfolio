@@ -35,15 +35,15 @@ section {
   width: 100%; /* Full width */
 }
 .navlinks {
-  padding:0.5% 1%;
+  padding: 0.5% 1%;
 }
 .navlinks a {
-  color:white;
+  color: white;
   font-size: 20px;
-  text-decoration:none;
-  padding:30px;
+  text-decoration: none;
+  padding: 30px;
 }
-.active{
+.active {
   background: -webkit-linear-gradient(
     rgb(255, 255, 255),
     rgb(78, 60, 184),
@@ -92,18 +92,18 @@ section div h1 {
   margin: 0% 2%;
   padding: 1% 2%;
   box-shadow: -2px -2px 5px black;
-  border-radius:5px;
-} 
+  border-radius: 5px;
+}
 
 .mydetails a:hover {
-  color:white;
-  background:blue;
+  color: white;
+  background: blue;
   box-shadow: -2px -2px 5px black;
   transition: 1s;
 }
 
 .mydetails p {
-  font-size:18px;
+  font-size: 18px;
 }
 
 /* Skills Section */
@@ -128,7 +128,7 @@ section div h1 {
 }
 .icondiv {
   margin: 2%;
-  min-width:10%;
+  min-width: 10%;
 }
 .icondiv p {
   color: rgb(71, 71, 71);
@@ -173,7 +173,7 @@ section div h1 {
 section .nav-fix h2 {
   margin: 0%;
   padding: 0%;
-  margin-bottom:-100px;
+  margin-bottom: -100px;
   font-size: 3rem;
   background: -webkit-linear-gradient(
     rgb(255, 255, 255),
@@ -205,14 +205,21 @@ section .nav-fix h2 {
   margin: 0 auto;
   margin-bottom: 10%;
   padding: 0%;
-  width:100%;
+  width: 100%;
 }
+
 .single-project img {
-  width: 200px;
+  width: 150px;
   height: 150px;
-  max-width: 100%;
   border-radius: 15%;
 }
+.single-project img:hover {
+  width: 175px;
+  height: 175px;
+  margin:-12.5px;
+  transition: all 1s ease;
+}
+
 .calendar {
   max-width: 50%;
   margin: 0 auto;
@@ -251,8 +258,6 @@ form textarea {
   margin: 5% auto;
 }
 
-
-
 embed {
-  margin-top:2%;
+  margin-top: 2%;
 }
