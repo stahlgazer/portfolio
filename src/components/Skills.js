@@ -39,10 +39,10 @@ export default function Skills() {
         </div>
         <div className="icondiv">
           <img
-            alt="Git Logo"
-            src="https://img.icons8.com/color/124/000000/git.png"
+            alt="MaterialUI Logo"
+            src="https://img.icons8.com/color/124/000000/material-ui.png"
           />
-          <p>Git</p>
+          <p>Material-UI</p>
         </div>
       </div>
       <div
@@ -78,19 +78,20 @@ export default function Skills() {
           />
           <p>GraphQL</p>
         </div>
-        <div className="icondiv">
-          <img
-            alt="Apollo Logo"
-            src="https://img.icons8.com/color/124/000000/apollo.png"
-          />
-          <p>Apollo</p>
-        </div>
+
         <div className="icondiv">
           <img
             alt="SQL Logo"
             src="https://img.icons8.com/ultraviolet/124/000000/sql.png"
           />
           <p>SQL</p>
+        </div>
+        <div className="icondiv">
+          <img
+            alt="Git Logo"
+            src="https://img.icons8.com/color/124/000000/git.png"
+          />
+          <p>Git</p>
         </div>
       </div>
     </section>
