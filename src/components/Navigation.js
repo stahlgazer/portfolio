@@ -19,11 +19,11 @@ export default function Navigation() {
           Projects
         </a>
       </div>
-      <div className="navlinks">
+      {/* <div className="navlinks">
         <a href="#Resume" className={active === '4' ? 'active' : ''} onClick={() => setActive('4')}>
           Resume
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
