@@ -25,8 +25,6 @@ export default function About() {
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          variant="contained"
-          color="primary"
           rel="external noopener noreferrer"
           href="https://github.com/stahlgazer"
           target="_blank"
@@ -34,8 +32,6 @@ export default function About() {
           <i className="fab fa-github"></i>
         </a>
         <a
-          variant="contained"
-          color="primary"
           rel="external noopener noreferrer"
           href="https://twitter.com/stahlgazer"
           target="_blank"

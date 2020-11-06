@@ -24,44 +24,78 @@ export default function Projects() {
       </div>
       <div className="projects-container">
         <div className="single-project">
-          <h2>Grid Calculator</h2>
+          <a target="blank" href="https://moviefinder-nine.vercel.app/">
+            <img
+              src="https://i.gyazo.com/b1b0bcff482224748946795e522792b2.jpg"
+              alt="movie ark preview"
+            />
+          </a>
+          <h2>The Movie Ark</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div className="single-project">
           <a target="blank" href="https://grid-calculator.vercel.app/">
             <img src={calc} alt="calculator preview" />
           </a>
-          <h3>Project Details</h3>
-          <p>Role: Coming Soon</p>
-          <p>Description</p>
-          <p>Github</p>
+          <h2>Grid Calculator</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
         <div className="single-project">
-          <h2>Game of Life</h2>
           <a target="blank" href="https://game-of-life-smoky-zeta.vercel.app/">
             <img src={game} alt="game of life preview" />
           </a>
-          <h3>Project Details</h3>
-          <p>Role: Coming Soon</p>
-          <p>Description</p>
-          <p>Github</p>
+          <h2>Game of Life</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
         <div className="single-project">
-          <h2>Tipsease</h2>
           <a target="blank" href="https://awesome-jackson-f31166.netlify.com/">
             <img src={tipsease} alt="tipsease page preview" />
           </a>
-          <h3>Project Details</h3>
-          <p>Role: Coming Soon</p>
-          <p>Description</p>
-          <p>Github</p>
+          <h2>Tipsease</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
         <div className="single-project">
-          <h2>To Do List</h2>
           <a target="blank" href="https://react-todo-sigma.now.sh/">
             <img src={todo} alt="to do list preview" />
           </a>
-          <h3>Project Details</h3>
-          <p>Role: Coming Soon</p>
-          <p>Description</p>
-          <p>Github</p>
+          <h2>To Do List</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
       </div>
       <div className="calendar" id="Contributions">

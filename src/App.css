@@ -170,6 +170,9 @@ section div h1 {
 }
 
 /* Projects Section*/
+#Projects {
+  margin-bottom: 100px;
+}
 section .nav-fix h2 {
   margin: 0%;
   padding: 0%;
@@ -200,6 +203,7 @@ section .nav-fix h2 {
   display: flex;
   width: 75%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .single-project {
   margin: 0 auto;
@@ -216,8 +220,8 @@ section .nav-fix h2 {
 .single-project img:hover {
   width: 175px;
   height: 175px;
-  margin:-12.5px;
-  transition: all 1s ease;
+  margin: -12.5px;
+  transition: all 0.5s ease;
 }
 
 .calendar {
