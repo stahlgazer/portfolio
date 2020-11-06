@@ -22,7 +22,13 @@ export default function Projects() {
       <div className="nav-fix">
         <h2>Projects</h2>
       </div>
-      <div className="projects-container">
+      <div
+        className="projects-container"
+        data-aos="fade-down-left"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-mirror="true"
+      >
         <div className="single-project">
           <a target="blank" href="https://moviefinder-nine.vercel.app/">
             <img
@@ -98,7 +104,7 @@ export default function Projects() {
           </a>
         </div>
       </div>
-      <div className="calendar" id="Contributions">
+      <div id="Contributions">
         <GitHubCalendar username="stahlgazer" theme={exampleTheme}>
           <ReactTooltip delayShow={50} html />
         </GitHubCalendar>
