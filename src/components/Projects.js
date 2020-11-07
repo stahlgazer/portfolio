@@ -40,22 +40,7 @@ export default function Projects() {
           <p>Description: Coming Soon</p>
           <a
             rel="external noopener noreferrer"
-            href="https://github.com/stahlgazer"
-            target="_blank"
-          >
-            <i className="fab fa-github"></i>
-          </a>
-        </div>
-
-        <div className="single-project">
-          <a target="blank" href="https://grid-calculator.vercel.app/">
-            <img src={calc} alt="calculator preview" />
-          </a>
-          <h2>Grid Calculator</h2>
-          <p>Description: Coming Soon</p>
-          <a
-            rel="external noopener noreferrer"
-            href="https://github.com/stahlgazer"
+            href="https://github.com/stahlgazer/moviefinder"
             target="_blank"
           >
             <i className="fab fa-github"></i>
@@ -69,7 +54,41 @@ export default function Projects() {
           <p>Description: Coming Soon</p>
           <a
             rel="external noopener noreferrer"
-            href="https://github.com/stahlgazer"
+            href="https://github.com/stahlgazer/game-of-life"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+        </div>
+        <div className="single-project">
+          <a target="blank" href="https://grid-calculator.vercel.app/">
+            <img
+              src="https://i.gyazo.com/e8a75c17ecb5fb8b9950c21a282321c1.png"
+              alt="calculator preview"
+            />
+          </a>
+          <h2>Grid Calculator</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer/grid-calculator"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+        </div>
+        <div className="single-project">
+          <a target="blank" href="https://front-end-fawn-kappa.now.sh/">
+            <img
+              src="https://i.gyazo.com/357f130e5036f10082aba098ecd00ca7.png"
+              alt="to do list preview"
+            />
+          </a>
+          <h2>Med Cabinet</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer/medcabinet"
             target="_blank"
           >
             <i className="fab fa-github"></i>
@@ -83,12 +102,13 @@ export default function Projects() {
           <p>Description: Coming Soon</p>
           <a
             rel="external noopener noreferrer"
-            href="https://github.com/stahlgazer"
+            href="https://github.com/TeamTipsease/Marketing-2"
             target="_blank"
           >
             <i className="fab fa-github"></i>
           </a>
         </div>
+
         <div className="single-project">
           <a target="blank" href="https://react-todo-sigma.now.sh/">
             <img src={todo} alt="to do list preview" />
@@ -97,7 +117,7 @@ export default function Projects() {
           <p>Description: Coming Soon</p>
           <a
             rel="external noopener noreferrer"
-            href="https://github.com/stahlgazer"
+            href="https://github.com/stahlgazer/React-Todo"
             target="_blank"
           >
             <i className="fab fa-github"></i>
