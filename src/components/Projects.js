@@ -32,7 +32,7 @@ export default function Projects() {
         <div className="single-project">
           <a target="blank" href="https://moviefinder-nine.vercel.app/">
             <img
-              src="https://i.gyazo.com/b1b0bcff482224748946795e522792b2.jpg"
+              src="https://i.gyazo.com/67dc2dc311b32e7e16590157468478c9.png"
               alt="movie ark preview"
             />
           </a>
@@ -61,6 +61,23 @@ export default function Projects() {
           </a>
         </div>
         <div className="single-project">
+          <a target="blank" href="https://front-end-fawn-kappa.now.sh/">
+            <img
+              src="https://i.gyazo.com/001adb67a3c5e1e08b7b557883e07b02.png"
+              alt="to do list preview"
+            />
+          </a>
+          <h2>Med Cabinet</h2>
+          <p>Description: Coming Soon</p>
+          <a
+            rel="external noopener noreferrer"
+            href="https://github.com/stahlgazer/medcabinet"
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+        </div>
+        <div className="single-project">
           <a target="blank" href="https://grid-calculator.vercel.app/">
             <img
               src="https://i.gyazo.com/e8a75c17ecb5fb8b9950c21a282321c1.png"
@@ -77,23 +94,7 @@ export default function Projects() {
             <i className="fab fa-github"></i>
           </a>
         </div>
-        <div className="single-project">
-          <a target="blank" href="https://front-end-fawn-kappa.now.sh/">
-            <img
-              src="https://i.gyazo.com/357f130e5036f10082aba098ecd00ca7.png"
-              alt="to do list preview"
-            />
-          </a>
-          <h2>Med Cabinet</h2>
-          <p>Description: Coming Soon</p>
-          <a
-            rel="external noopener noreferrer"
-            href="https://github.com/stahlgazer/medcabinet"
-            target="_blank"
-          >
-            <i className="fab fa-github"></i>
-          </a>
-        </div>
+
         <div className="single-project">
           <a target="blank" href="https://awesome-jackson-f31166.netlify.com/">
             <img src={tipsease} alt="tipsease page preview" />
@@ -111,7 +112,10 @@ export default function Projects() {
 
         <div className="single-project">
           <a target="blank" href="https://react-todo-sigma.now.sh/">
-            <img src={todo} alt="to do list preview" />
+            <img
+              src="https://i.gyazo.com/e73e4226fedc86317a0aa95c8b34d643.png"
+              alt="to do list preview"
+            />
           </a>
           <h2>To Do List</h2>
           <p>Description: Coming Soon</p>
