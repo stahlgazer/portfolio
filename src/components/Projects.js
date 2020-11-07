@@ -1,8 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import tipsease from "../images/tipsease.PNG";
-import todo from "../images/todoapp2.PNG";
-import calc from "../images/calculator.PNG";
 import game from "../images/gameoflife.PNG";
 import ReactTooltip from "react-tooltip";
 
