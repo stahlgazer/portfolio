@@ -71,7 +71,7 @@ section div h1 {
   background: -webkit-linear-gradient(
     rgb(17, 7, 68),
     rgb(56, 88, 143),
-    rgb(255, 255, 255)
+    rgb(17, 7, 68)
   );
   padding: 2%;
   display: flex;
@@ -126,6 +126,13 @@ section div h1 {
   #Contributions{
     max-width:90%;
     margin: auto;
+  }
+  #About{
+    flex-direction:column;
+    width:80%;
+  }
+  .mydetails, .photo{
+    margin: 0 auto;
   }
 }
 
