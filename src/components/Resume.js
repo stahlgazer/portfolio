@@ -7,9 +7,10 @@ export default function Resume() {
       <div className="nav-fix">
         <h2>Resume</h2>
         <embed
+          className="resume"
           src={resume}
           type="application/pdf"
-          width="60%"
+          width="70%"
           height="1200px"
           view="Fit"
         ></embed>
