@@ -1,4 +1,9 @@
 import React from "react";
+import mui from "../images/material-ui.png";
+import redux from "../images/redux.png";
+import graphql from "../images/graphql.png";
+import git from "../images/git.png";
+import sql from "../images/sql.png";
 
 export default function Skills() {
   return (
@@ -38,10 +43,7 @@ export default function Skills() {
           <p>Bootstrap</p>
         </div>
         <div className="icondiv">
-          <img
-            alt="MaterialUI Logo"
-            src="https://img.icons8.com/color/124/000000/material-ui.png"
-          />
+          <img alt="MaterialUI Logo" src={mui} />
           <p>Material-UI</p>
         </div>
       </div>
@@ -63,7 +65,7 @@ export default function Skills() {
         <div className="icondiv">
           <img
             alt="Redux Logo"
-            src="https://img.icons8.com/color/124/000000/redux.png"
+            src={redux}
           />
           <p>Redux.js</p>
         </div>
@@ -74,7 +76,7 @@ export default function Skills() {
         <div className="icondiv">
           <img
             alt="GraphQL Logo"
-            src="https://img.icons8.com/color/124/000000/graphql.png"
+            src={graphql}
           />
           <p>GraphQL</p>
         </div>
@@ -82,14 +84,14 @@ export default function Skills() {
         <div className="icondiv">
           <img
             alt="SQL Logo"
-            src="https://img.icons8.com/ultraviolet/124/000000/sql.png"
+            src={sql}
           />
           <p>SQL</p>
         </div>
         <div className="icondiv">
           <img
             alt="Git Logo"
-            src="https://img.icons8.com/color/124/000000/git.png"
+            src={git}
           />
           <p>Git</p>
         </div>
