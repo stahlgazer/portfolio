@@ -111,34 +111,6 @@ section div h1 {
   display: flex;
   justify-content: center;
 }
-@media only screen and (max-width: 600px) {
-  .icons-container {
-    flex-direction:column;
-    align-items:center;
-  }
-  .icondiv {
-    width: 50%;
-  }
-  .projects-container{
-    padding-top:10px;
-    flex-direction:column;
-  }
-  #Contributions{
-    max-width:90%;
-    margin: auto;
-  }
-  #About{
-    flex-direction:column;
-    width:80%;
-  }
-  .mydetails, .photo{
-    margin: 0 auto;
-  }
-  .resume{
-    width:100%;
-    height:650px;
-  }
-}
 
 #Skills .fab {
   font-size: 8rem;
@@ -293,4 +265,39 @@ form textarea {
 
 embed {
   margin-top: 2%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .icons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icondiv {
+    width: 100%;
+  }
+  .projects-container {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  #Contributions {
+    max-width: 90%;
+    margin: auto;
+  }
+  #About {
+    flex-direction: column;
+    width: 80%;
+  }
+  .mydetails,
+  .photo {
+    margin: 0 auto;
+  }
+  .resume {
+    width: 100%;
+    height: 650px;
+  }
+  .mobile-icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
 }
